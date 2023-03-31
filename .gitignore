@@ -1,0 +1,27 @@
+
+# dependencies
+/node_modules
+/crud-app/node_modules
+/crud-app/.pnp
+/crud-app/.pnp.js
+/crud-service/node_modules
+/crud-service/.pnp
+/crud-service/.pnp.js
+
+# testing
+/crud-app/coverage
+
+# production
+/crud-app/build
+
+# misc
+/crud-service/config/config.env
+/crud-app/.DS_Store
+/crud-app/.env.local
+/crud-app/.env.development.local
+/crud-app/.env.test.local
+/crud-app/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
