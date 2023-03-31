@@ -103,7 +103,7 @@ const AllUsers = () => {
 
     const emailHtml = message;
     try {
-      const resp = await axios.post("http://localhost:8000/send-mail", {
+      const resp = await axios.post("https://crud-2hj0.onrender.com/send-mail", {
         emailHtml,
       });
 
